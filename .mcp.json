@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "naia-api": {
+      "type": "http",
+      "url": "https://naia.today/api/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${NAIA_API_KEY}"
+      },
+      "description": "Naia — Plataforma GEO (Generative Engine Optimization). Analise visibilidade em motores de IA, gere conteúdo otimizado e planos de execução.",
+      "tools": [
+        "list_businesses",
+        "get_business",
+        "create_business",
+        "trigger_analysis",
+        "get_analysis",
+        "get_recommendations",
+        "list_content",
+        "get_content",
+        "create_content",
+        "approve_content",
+        "get_credits",
+        "list_execution_plans",
+        "get_execution_plan",
+        "create_execution_plan",
+        "generate_task_content",
+        "update_task_status",
+        "get_queries",
+        "update_queries"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+name: naia-platform
+description: >
+  Naia GEO Platform — analyze brand visibility across AI engines (ChatGPT, Gemini, Claude, Perplexity),
+  generate AI-optimized content, and create strategic execution plans.
+url: https://naia.today/api/v1/mcp
+transport: streamable-http
+auth:
+  type: bearer
+  instructions: Generate an API key at https://naia.today/dashboard/settings/api
+categories:
+  - seo
+  - marketing
+  - content
+  - analytics
+keywords:
+  - GEO
+  - Generative Engine Optimization
+  - AI visibility
+  - brand analysis
+  - content generation
+links:
+  documentation: https://naia.today/developers
+  homepage: https://naia.today
+  api: https://naia.today/api/v1/openapi.json

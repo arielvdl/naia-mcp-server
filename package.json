@@ -1,0 +1,36 @@
+{
+  "name": "@naia-today/mcp-server",
+  "mcpName": "io.naia.today/platform",
+  "version": "1.0.0",
+  "description": "Naia GEO Platform MCP Server — analyze brand visibility across AI engines, generate content, and manage execution plans",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "geo",
+    "generative-engine-optimization",
+    "ai-visibility",
+    "seo",
+    "content-generation",
+    "brand-analysis",
+    "chatgpt",
+    "gemini",
+    "claude",
+    "perplexity",
+    "naia"
+  ],
+  "homepage": "https://naia.today/developers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naia-today/mcp-server"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Naia",
+    "url": "https://naia.today"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "info": "echo 'Remote MCP server at https://naia.today/api/v1/mcp — no local installation needed.'"
+  }
+}
